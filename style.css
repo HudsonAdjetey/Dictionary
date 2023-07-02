@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+body {
+    background-color: #d6ecff;
+    min-height: 100vh;
+    width: 100%;
+    transition: all .4s;
+}
+
+#toggleBtn {
+    font-size: 2rem;
+    float: right;
+    margin-right: 10%;
+    margin-top: 2.2rem;
+    color: #fb9200;
+    cursor: pointer;
+}
+.bxs-moon {
+    color: #fff;
+    transition: all .4s;
+}
+.bxs-sun {
+    transition: all .4s;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: -2px 2px 2px 2px rgba(141, 141, 141, 0.3);
+    width: 90vmin;
+    padding: 1rem 2rem 4rem 2rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+.result-container {
+    margin-top: .2rem;
+}
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input-container input {
+    width: 70%;
+    padding: .8rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #1a1a1a;
+    font-size: 1rem;
+}
+
+.input-container button {
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: #6cb6f7;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.word-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: .4rem;
+}
+.word-display p {
+    font-size: 1.5rem;
+    color: #000000;
+}
+.soundBtn {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.word-display i {
+    font-size: 1.4rem;
+    color: #1a1a1a;
+    opacity: .8;
+    cursor: pointer;
+}
+.min-word {
+    display: flex;
+    gap: 15px;
+    font-weight: 700;
+    opacity: .7;
+}
+
+.definition {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.meaning {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+.example {
+    margin-top: 2rem;
+    border-left: 3px solid #6cb6f7;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    opacity: .8;
+    font-style: italic;
+}
+
+.diff {
+    margin-top: 3rem;
+}
+.wDiff {
+    width: 100%;
+    margin-top: 1.1rem;
+    margin-bottom: 1.4rem;
+}
+.wDiff h4 {
+    margin-bottom: .5rem;
+}
+.wDiff p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
